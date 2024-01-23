@@ -10,7 +10,7 @@ fix:
 # compila de TypeScript a JavaScript
 build:
     tsc
-# ejecuta la aplicación una vez comilada
+# ejecuta la aplicación una vez compilada
 run:
     node build/app.js
 # inicia el servicio
@@ -21,5 +21,5 @@ install package:
     npm install {{ package }}
 # desinstala un paquete local
 uninstall package:
-    npm until {{package}}
+    npm uninstall {{package}}
 
